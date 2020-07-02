@@ -1,0 +1,28 @@
+{
+  "name": "bladellano/phptips002",
+  "description": "Abstração de Banco de Dados",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Dellano",
+      "email": "bladellano@gmail.com",
+      "role": "Developer",
+      "homepage": "https://dellanosites.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.2"
+  }
+}

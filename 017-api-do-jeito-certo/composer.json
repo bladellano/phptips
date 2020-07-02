@@ -1,0 +1,24 @@
+{
+  "name": "bladellano/phptips017",
+  "description": "Descomplicando Api com Php",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Dellano",
+      "email": "bladellano@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*",
+    "pagarme/pagarme-php": "4.0.*"
+  }
+}

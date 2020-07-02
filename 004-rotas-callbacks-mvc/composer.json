@@ -1,0 +1,29 @@
+{
+  "name": "bladellano/phptips004",
+  "description": "Rotas, callbacks e MVC",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Dellano",
+      "email": "bladellano@gmail.com",
+      "role": "Developer",
+      "homepage": "https://dellanosites.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.2",
+    "coffeecode/router": "1.0.5"
+  }
+}
