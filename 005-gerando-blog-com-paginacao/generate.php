@@ -16,8 +16,6 @@ for($i = 0; $i < 3 ;$i++){
     $post->description = Lorem::paragraphs(2,true);
 
     $post->save();
-
-    print_r($post);
 }
 
 
