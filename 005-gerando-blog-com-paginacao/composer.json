@@ -23,7 +23,7 @@
     ]
   },
   "require": {
-    "fzaninotto/faker": "1.8.*",
+    "fzaninotto/faker": "1.9.*",
     "coffeecode/datalayer": "1.1.*",
     "coffeecode/paginator": "1.0.*"
   }
