@@ -24,9 +24,9 @@ for($image = 1; $image < 4; $image++){
         <h1>Imagem <?=$image;?></h1>
         <img src="images/<?=$image?>.jpg" alt=""/>
         <img src="<?=$c->make(
-                "images/{$image}.jpg",
-                300,
-                300); ?>"/>
+            "images/{$image}.jpg",
+            300,
+            300); ?>"/>
         <img src="<?=$c->make(
             "images/{$image}.jpg",
             300,
@@ -35,7 +35,7 @@ for($image = 1; $image < 4; $image++){
     <?php
 
     //rotina de delete
-    $c->flush("1.jpg");
-   # $c->flush();
+    # $c->flush("1.jpg");
+    # $c->flush();
 }
 
