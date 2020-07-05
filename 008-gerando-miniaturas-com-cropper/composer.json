@@ -1,0 +1,21 @@
+{
+  "name": "robsonvleite/phptips008",
+  "description": "GERANDO MINIATURAS DE IMAGENS COM CROPPER",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robson V. Leite",
+      "email": "cursos@upinside.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "require": {
+    "fzaninotto/faker": "1.8.*",
+    "coffeecode/cropper": "1.2.*"
+  }
+}
