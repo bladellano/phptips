@@ -1,0 +1,30 @@
+{
+  "name": "bladellano/phptips013",
+  "description": "TRABALHANDO COM REQUISIÇÕES AJAX EM MVC",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Dellano",
+      "email": "bladellano@gmail.com",
+      "role": "Developer",
+      "homepage": "https://dellanosites.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*",
+    "coffeecode/router": "1.0.*",
+    "league/plates": "4.0.0-alpha"
+  }
+}
