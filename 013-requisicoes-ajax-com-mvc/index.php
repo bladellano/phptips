@@ -9,8 +9,8 @@ $router->namespace("Source\Controllers");
 
 $router->group(null);
 $router->get("/","Form:home","form.home");
-$router->get("/create","Form:create","form.create");
-$router->get("/delete","Form:delete","form.delete");
+$router->post("/create","Form:create","form.create");
+$router->post("/delete","Form:delete","form.delete");
 
 $router->dispatch();
 

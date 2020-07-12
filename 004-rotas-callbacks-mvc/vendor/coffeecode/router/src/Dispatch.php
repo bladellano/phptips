@@ -142,7 +142,7 @@ abstract class Dispatch
     /**
      * @return bool
      */
-    private function route()
+    public function route()
     {
         if ($this->route) {
             if (is_callable($this->route['handler'])) {
