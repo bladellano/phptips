@@ -25,6 +25,9 @@ class Form
 
     public function home():void
     {
+
+        echo 'Ola mundo!';
+        exit;
         echo $this->view->render("home",[
             "users"=>(new User())->find()->order("first_name")->fetch(true)
         ]);
